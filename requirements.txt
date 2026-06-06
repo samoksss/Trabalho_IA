@@ -1,0 +1,26 @@
+# =====================================================================
+# Dependências do Trabalho Final de IA — PathMNIST
+# Fixe as versões EXATAS que vocês usarem (pip freeze) antes da entrega.
+# O enunciado (6.1) exige listar as versões de todas as dependências.
+# =====================================================================
+
+# --- Núcleo (todas as etapas) ---
+numpy==2.4.4
+medmnist==3.0.2          # dataset PathMNIST
+matplotlib              # gráficos (loss/acc, feature maps, Grad-CAM)
+scikit-learn            # matriz de confusão, métricas, relatórios
+tqdm                    # barras de progresso
+
+# --- Etapas 2+ (PyTorch) ---
+# Instale a versão compatível com sua GPU/CUDA. Veja: https://pytorch.org
+torch
+torchvision
+timm                    # Vision Transformers pré-treinados (vit, swin)
+
+# --- Etapa 4 (XAI) ---
+grad-cam                # implementação de Grad-CAM (pacote: pytorch-grad-cam)
+# captum                # alternativa: Integrated Gradients, etc. (bônus)
+
+# --- Experiment tracking (bônus +5%) ---
+# tensorboard
+# wandb
