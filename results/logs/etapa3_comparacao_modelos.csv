@@ -1,0 +1,10 @@
+modelo,modo,val_acc,tempo_s,vram_mb,params_treinaveis,params_total
+custom,fine_tuning,0.9714,1303.7,1926.9,289065,289065
+resnet50,feature_extraction,0.9737,827.0,790.0,18441,23526473
+resnet50,fine_tuning,0.9979,1918.4,2987.2,23526473,23526473
+vgg16,feature_extraction,0.9346,1421.3,5670.0,36873,134297417
+vgg16,fine_tuning,0.0877,3303.1,6699.8,134297417,134297417
+efficientnet,feature_extraction,0.9715,500.7,714.6,11529,4019077
+efficientnet,fine_tuning,0.9979,1237.8,2806.5,4019077,4019077
+vit,feature_extraction,0.9786,2041.6,869.5,6921,85805577
+vit,fine_tuning,0.9937,4734.8,5280.1,85805577,85805577
