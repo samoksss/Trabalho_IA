@@ -17,11 +17,6 @@ Prof. Me. Décio Gonçalves de Aguiar Neto
 | Breno Kauê Honório da Silva | 2023010200 |
 | Samuel Brito da Silva | 2023020033 |
 
-**Divisão de responsabilidades** _(opcional)_: Etapa 1 (NumPy) — Esteiner;
-Etapa 2 (PyTorch e equivalência) — Gabriel; Etapa 3 (CNNs, ViT e transfer
-learning) — Marcos; Etapa 4 (explicabilidade / Grad-CAM) — Maria Letícia;
-Etapa 5 (otimização final) — Breno; relatório e revisão — toda a equipe.
-
 ## 2. O problema
 
 Classificação multiclasse (9 tecidos) de patches histopatológicos de câncer
