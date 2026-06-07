@@ -111,8 +111,7 @@ A equipe utilizou o **Claude (Anthropic)** como ferramenta de **suporte** ao
 longo do projeto: apoio na estruturação do repositório, na implementação e
 depuração do código das etapas, e no esclarecimento de conceitos (backpropagation,
 transfer learning, Grad-CAM). Todo o código gerado com esse apoio foi **revisado,
-testado e compreendido pela equipe**, que é capaz de explicar e modificar
-qualquer trecho.
+testado e compreendido pela equipe**.
 
 | Ferramenta | Etapas | Finalidade |
 |------------|--------|------------|
