@@ -15,6 +15,7 @@ Prof. Me. Décio Gonçalves de Aguiar Neto
 | Marcos Felipe Arruda Lima | 2023010598 |
 | Maria Letícia Pimentel Carlos | 2023010523 |
 | Breno Kauê Honório da Silva | 2023010200 |
+| Samuel Brito da Silva | 2023020033 |
 
 **Divisão de responsabilidades** _(opcional)_: Etapa 1 (NumPy) — Esteiner;
 Etapa 2 (PyTorch e equivalência) — Gabriel; Etapa 3 (CNNs, ViT e transfer
