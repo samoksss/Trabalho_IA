@@ -44,10 +44,15 @@ def _flatten_label(t):
     return int(t[0])
 
 
-def make_loaders(size=224, batch_size=64, num_workers=2, augment=True, root=None):
-    """Cria os DataLoaders de treino, validação e teste."""
+def make_loaders(size=224, batch_size=64, num_workers=2, augment=True, root=None,
+                 train_transform=None):
+    """Cria os DataLoaders de treino, validação e teste.
+
+    train_transform: se fornecido, substitui o transform de treino padrão
+    (usado na Etapa 5 para aplicar o augmentation avançado).
+    """
     pin = torch.cuda.is_available()
-    tr_tf = train_tf if augment else eval_tf
+    tr_tf = train_transform if train_transform is not None else (train_tf if augment else eval_tf)
 
     train_ds = get_torch_dataset("train", size=size, transform=tr_tf, root=root)
     val_ds = get_torch_dataset("val", size=size, transform=eval_tf, root=root)
